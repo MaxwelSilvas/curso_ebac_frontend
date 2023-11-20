@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercicio Java Script</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="box">
+      <h1>Exercício JavaScript</h1>
+      <form class="container">
+        <label>Campo A</label>
+        <input
+          id="campoA"
+          placeholder="Digite um número"
+          type="number"
+          required
+        />
+
+        <label>Campo B</label>
+        <input
+          id="campoB"
+          placeholder="Digite um número"
+          type="number"
+          required
+        />
+
+        <button id="btn-submit" type="button" onclick="validaNumero()">
+          Submit
+        </button>
+        <p class="message"></p>
+      </form>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
