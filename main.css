@@ -1,0 +1,95 @@
+/* main.css */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+h1,
+h2 {
+  padding: 8px;
+  color: rgb(0, 50, 0);
+}
+
+form {
+  margin-top: 0px;
+}
+
+input {
+  margin: 10px;
+  padding: 4px;
+  border-radius: 5px;
+}
+
+button {
+  background-color: rgb(0, 50, 0);
+  color: white;
+  padding: 6px;
+  border-radius: 5px;
+  border: none;
+  width: 120px;
+}
+
+button:hover {
+  background-color: green;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.botao-resetar {
+  background-color: rgb(88, 6, 6);
+  width: 125px;
+  margin: 10px auto;
+  display: block;
+}
+
+.botao-resetar:hover {
+  background-color: red;
+}
+
+ol {
+  margin-top: 10px;
+  text-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+ol li:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  border-radius: 5px;
+  text-decoration: line-through;
+}
+
+.riscado {
+  text-decoration: line-through;
+}
+
+.listas {
+  border: 1px solid #000;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 15px;
+  display: none;
+}
+
+.nomear-lista {
+  display: block;
+}
+
+.nomear-lista-off {
+  display: block;
+}

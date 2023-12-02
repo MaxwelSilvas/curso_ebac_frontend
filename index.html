@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Lista de tarefas</title>
+  </head>
+  <body>
+    <form>
+      <h1>Lista de tarefas</h1>
+      <div class="nomear-lista">
+        <div class="nomear-lista-off">
+          <div class="input-group">
+            <input
+              type="text"
+              id="nome-lista"
+              placeholder="Nome da lista"
+              class="input-lista"
+            />
+            <button type="submit" id="botao-nomear">Nomear Lista</button>
+          </div>
+        </div>
+        <div class="input-group">
+          <input
+            type="text"
+            id="nome-tarefa"
+            required
+            placeholder="Nome da tarefa"
+          />
+          <button type="submit" id="botao-adicionar">Adicionar +</button>
+        </div>
+        <button class="botao-resetar" type="reset" id="botao-resetar">
+          Limpar Lista -
+        </button>
+      </div>
+    </form>
+    <div class="listas" id="titulo-lista">
+      <ol id="minha-lista"></ol>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
